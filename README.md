@@ -42,9 +42,9 @@ IP адресс машины 192.168.140.145
 
 ### Решение
 
-Создать [Deployment](./manifests/task1/containers-data-exchange.yaml) приложения, состоящего из двух контейнеров, обменивающихся данными.
+Создал [Deployment](./manifests/task1/containers-data-exchange.yaml) приложения, состоящего из двух контейнеров, обменивающихся данными.
 
-1. Создать [Deployment](./manifests/task1/containers-data-exchange.yaml) приложения, состоящего из контейнеров busybox и multitool.
+1. Создал [Deployment](./manifests/task1/containers-data-exchange.yaml) приложения, состоящего из контейнеров busybox и multitool.
 2. Настроил busybox на запись данных каждые 5 секунд в некий файл в общей директории.
 ```bash
 while true; do
